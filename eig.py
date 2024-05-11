@@ -1,0 +1,12 @@
+import numpy as np 
+A = np.array([[7,3],[3,1]])
+print(A)
+values , vectors = np.linalg.eig(A)
+print(f"The eigenvalue of matrix_1 is : {values}")
+print(f"The eigenvector of matrix_1 is : {vectors}")
+print("____________________________________________________")
+B = np.array([[5,-1],[-3,8]])
+print(B)
+values , vectors = np.linalg.eig(B)
+print(f"The eigenvalue of matrix_2 is : {values}")
+print(f"The eigenvector of matrix_2 is : {vectors}")
